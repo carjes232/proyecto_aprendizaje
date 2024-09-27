@@ -7,7 +7,6 @@ Este proyecto desarrolla y optimiza modelos de detección de objetos para su eje
 
 - `PC/`: Contiene los scripts de entrenamiento, los modelos y los datasets utilizados para entrenar y optimizar los modelos.
 - `RaspberryPi/`: Incluye los modelos optimizados, la aplicación de inferencia y la integración con Kinect para la detección de objetos en tiempo real.
-- `docs/`: Documentación adicional, incluyendo el diagrama de Gantt y el escudo de la universidad.
 - `README.md`: Descripción general del proyecto y guía de uso.
 - `requirements.txt`: Dependencias necesarias para ejecutar los scripts.
 
