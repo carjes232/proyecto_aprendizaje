@@ -1,0 +1,12 @@
+Inference 1: 1.8826 seconds
+Inference 2: 1.8935 seconds
+Inference 3: 1.8780 seconds
+Inference 4: 1.9078 seconds
+Inference 5: 1.8848 seconds
+Inference 6: 1.8734 seconds
+Inference 7: 1.8994 seconds
+Inference 8: 1.8896 seconds
+Inference 9: 1.9013 seconds
+Inference 10: 1.8660 seconds
+Average Inference Time: 1.8876 seconds
+FPS: 0.53
