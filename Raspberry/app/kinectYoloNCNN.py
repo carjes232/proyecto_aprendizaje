@@ -10,7 +10,7 @@ from flask import Flask, Response, render_template_string
 from ultralytics import YOLO
 import torch
 from queue import Queue
-
+print(freenect.__file__)
 # Inicializar la aplicación Flask
 app = Flask(__name__)
 
