@@ -1,0 +1,3 @@
+[console_scripts]
+kinect_yolo_node = kinect_integration.kinectYoloNCNN:main
+

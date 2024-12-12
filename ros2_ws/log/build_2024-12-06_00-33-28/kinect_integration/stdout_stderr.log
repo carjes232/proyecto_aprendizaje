@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating kinect_integration.egg-info
+writing kinect_integration.egg-info/PKG-INFO
+writing dependency_links to kinect_integration.egg-info/dependency_links.txt
+writing entry points to kinect_integration.egg-info/entry_points.txt
+writing requirements to kinect_integration.egg-info/requires.txt
+writing top-level names to kinect_integration.egg-info/top_level.txt
+writing manifest file 'kinect_integration.egg-info/SOURCES.txt'
+reading manifest file 'kinect_integration.egg-info/SOURCES.txt'
+writing manifest file 'kinect_integration.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pi/ros2_ws/install/kinect_integration/lib/python3.10/site-packages/kinect-integration.egg-link (link to .)
+Installing kinect_yolo_node script to /home/pi/ros2_ws/install/kinect_integration/lib/kinect_integration
+
+Installed /home/pi/ros2_ws/build/kinect_integration
+running symlink_data
+creating /home/pi/ros2_ws/install/kinect_integration/share/ament_index
+creating /home/pi/ros2_ws/install/kinect_integration/share/ament_index/resource_index
+creating /home/pi/ros2_ws/install/kinect_integration/share/ament_index/resource_index/packages
+symbolically linking /home/pi/ros2_ws/build/kinect_integration/resource/kinect_integration -> /home/pi/ros2_ws/install/kinect_integration/share/ament_index/resource_index/packages
+symbolically linking /home/pi/ros2_ws/build/kinect_integration/package.xml -> /home/pi/ros2_ws/install/kinect_integration/share/kinect_integration
+creating /home/pi/ros2_ws/install/kinect_integration/share/kinect_integration/launch
+symbolically linking /home/pi/ros2_ws/build/kinect_integration/launch/kinect_yolo_launch.py -> /home/pi/ros2_ws/install/kinect_integration/share/kinect_integration/launch

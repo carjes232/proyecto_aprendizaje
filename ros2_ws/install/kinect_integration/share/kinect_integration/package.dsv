@@ -1,0 +1,9 @@
+source;share/kinect_integration/hook/pythonpath.ps1
+source;share/kinect_integration/hook/pythonpath.dsv
+source;share/kinect_integration/hook/pythonpath.sh
+source;share/kinect_integration/hook/ament_prefix_path.ps1
+source;share/kinect_integration/hook/ament_prefix_path.dsv
+source;share/kinect_integration/hook/ament_prefix_path.sh
+source;../../build/kinect_integration/share/kinect_integration/hook/pythonpath_develop.ps1
+source;../../build/kinect_integration/share/kinect_integration/hook/pythonpath_develop.dsv
+source;../../build/kinect_integration/share/kinect_integration/hook/pythonpath_develop.sh

@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.001811] (kinect_integration) JobQueued: {'identifier': 'kinect_integration', 'dependencies': OrderedDict()}
+[0.002491] (kinect_integration) JobStarted: {'identifier': 'kinect_integration'}
+[0.099187] (-) TimerEvent: {}
+[0.199870] (-) TimerEvent: {}
+[0.300755] (-) TimerEvent: {}
+[0.401594] (-) TimerEvent: {}
+[0.502399] (-) TimerEvent: {}
+[0.603184] (-) TimerEvent: {}
+[0.703905] (-) TimerEvent: {}
+[0.804638] (-) TimerEvent: {}
+[0.905293] (-) TimerEvent: {}
+[1.006000] (-) TimerEvent: {}
+[1.106740] (-) TimerEvent: {}
+[1.207569] (-) TimerEvent: {}
+[1.308651] (-) TimerEvent: {}
+[1.409349] (-) TimerEvent: {}
+[1.510106] (-) TimerEvent: {}
+[1.610760] (-) TimerEvent: {}
+[1.711480] (-) TimerEvent: {}
+[1.812121] (-) TimerEvent: {}
+[1.912791] (-) TimerEvent: {}
+[2.013430] (-) TimerEvent: {}
+[2.114125] (-) TimerEvent: {}
+[2.214867] (-) TimerEvent: {}
+[2.315568] (-) TimerEvent: {}
+[2.416296] (-) TimerEvent: {}
+[2.517176] (-) TimerEvent: {}
+[2.618242] (-) TimerEvent: {}
+[2.719140] (-) TimerEvent: {}
+[2.820410] (-) TimerEvent: {}
+[2.831015] (kinect_integration) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/pi/ros2_ws/build/kinect_integration/build', '--no-deps', 'symlink_data'], 'cwd': '/home/pi/ros2_ws/build/kinect_integration', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': 'fe80::bae:f157:7c84:1e14%wlan0 52123 22', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pi/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/pi/venv_freenect/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/ros2_ws', 'TERM_PROGRAM_VERSION': '1.93.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-7f6b2e6a-a674-4216-aadc-9a5a971edb8a.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pi/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](venv_freenect) \\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]\\[\x1b]633;B\x07\\]', 'LC_MONETARY': 'es_CO.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/pi/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/pi/ros2_ws/install:/home/pi/ros2_kinect_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/pi/venv_freenect/bin:/opt/ros/humble/bin:/home/pi/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'es_CO.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'es_CO.UTF-8', 'VIRTUAL_ENV_PROMPT': 'venv_freenect', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-46b5d197cc.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/pi/ros2_ws/install/kinect_integration:/home/pi/ros2_kinect_ws/install/kinect_launch:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'VIRTUAL_ENV': '/home/pi/venv_freenect', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pi/ros2_ws/build/kinect_integration', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': 'fe80::bae:f157:7c84:1e14%wlan0 52123 fe80::f06d:f974:ce43:3815%wlan0 22', 'PYTHONPATH': '/home/pi/ros2_ws/build/kinect_integration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/kinect_integration/lib/python3.10/site-packages:/home/pi/ros2_ws/build/kinect_integration:/home/pi/ros2_ws/install/kinect_integration/lib/python3.10/site-packages:/home/pi/ros2_kinect_ws/install/kinect_launch/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1'}, 'shell': False}
+[2.920516] (-) TimerEvent: {}
+[3.021343] (-) TimerEvent: {}
+[3.122225] (-) TimerEvent: {}
+[3.222936] (-) TimerEvent: {}
+[3.323576] (-) TimerEvent: {}
+[3.424214] (-) TimerEvent: {}
+[3.524878] (-) TimerEvent: {}
+[3.625520] (-) TimerEvent: {}
+[3.726382] (-) TimerEvent: {}
+[3.827148] (-) TimerEvent: {}
+[3.927920] (-) TimerEvent: {}
+[4.028626] (-) TimerEvent: {}
+[4.039084] (kinect_integration) StdoutLine: {'line': b'running develop\n'}
+[4.128812] (-) TimerEvent: {}
+[4.229506] (-) TimerEvent: {}
+[4.330197] (-) TimerEvent: {}
+[4.430847] (-) TimerEvent: {}
+[4.531519] (-) TimerEvent: {}
+[4.632206] (-) TimerEvent: {}
+[4.732857] (-) TimerEvent: {}
+[4.788239] (kinect_integration) StdoutLine: {'line': b'running egg_info\n'}
+[4.788921] (kinect_integration) StdoutLine: {'line': b'writing kinect_integration.egg-info/PKG-INFO\n'}
+[4.791149] (kinect_integration) StdoutLine: {'line': b'writing dependency_links to kinect_integration.egg-info/dependency_links.txt\n'}
+[4.791726] (kinect_integration) StdoutLine: {'line': b'writing entry points to kinect_integration.egg-info/entry_points.txt\n'}
+[4.792234] (kinect_integration) StdoutLine: {'line': b'writing requirements to kinect_integration.egg-info/requires.txt\n'}
+[4.792747] (kinect_integration) StdoutLine: {'line': b'writing top-level names to kinect_integration.egg-info/top_level.txt\n'}
+[4.799914] (kinect_integration) StdoutLine: {'line': b"reading manifest file 'kinect_integration.egg-info/SOURCES.txt'\n"}
+[4.803330] (kinect_integration) StdoutLine: {'line': b"writing manifest file 'kinect_integration.egg-info/SOURCES.txt'\n"}
+[4.809036] (kinect_integration) StdoutLine: {'line': b'running build_ext\n'}
+[4.809780] (kinect_integration) StdoutLine: {'line': b'Creating /home/pi/ros2_ws/install/kinect_integration/lib/python3.10/site-packages/kinect-integration.egg-link (link to .)\n'}
+[4.813429] (kinect_integration) StdoutLine: {'line': b'Installing kinect_yolo_node script to /home/pi/ros2_ws/install/kinect_integration/lib/kinect_integration\n'}
+[4.814846] (kinect_integration) StdoutLine: {'line': b'\n'}
+[4.815425] (kinect_integration) StdoutLine: {'line': b'Installed /home/pi/ros2_ws/build/kinect_integration\n'}
+[4.815823] (kinect_integration) StdoutLine: {'line': b'running symlink_data\n'}
+[4.833143] (-) TimerEvent: {}
+[4.934443] (-) TimerEvent: {}
+[4.946509] (kinect_integration) CommandEnded: {'returncode': 0}
+[5.003175] (kinect_integration) JobEnded: {'identifier': 'kinect_integration', 'rc': 0}
+[5.006193] (-) EventReactorShutdown: {}

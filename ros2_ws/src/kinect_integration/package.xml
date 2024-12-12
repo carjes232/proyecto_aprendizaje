@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>kinect_integration</name>
+  <version>0.0.0</version>
+  <description>Integration of Kinect and YOLO with ROS 2</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>freenect</exec_depend>
+  <exec_depend>opencv-python</exec_depend>
+  <exec_depend>ultralytics</exec_depend>
+  <exec_depend>torch</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

@@ -1,0 +1,1 @@
+/home/pi/proyecto_aprendizaje/ros2_ws/build/kinect_integration/launch/kinect_yolo_launch.py

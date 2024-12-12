@@ -1,0 +1,17 @@
+[2.767s] Invoking command in '/home/pi/ros2_ws/build/kinect_integration': PYTHONPATH=/home/pi/ros2_ws/build/kinect_integration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/kinect_integration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/build/kinect_integration/build --no-deps symlink_data
+[3.944s] running develop
+[4.749s] running egg_info
+[4.749s] writing kinect_integration.egg-info/PKG-INFO
+[4.751s] writing dependency_links to kinect_integration.egg-info/dependency_links.txt
+[4.751s] writing entry points to kinect_integration.egg-info/entry_points.txt
+[4.752s] writing requirements to kinect_integration.egg-info/requires.txt
+[4.753s] writing top-level names to kinect_integration.egg-info/top_level.txt
+[4.761s] reading manifest file 'kinect_integration.egg-info/SOURCES.txt'
+[4.764s] writing manifest file 'kinect_integration.egg-info/SOURCES.txt'
+[4.770s] running build_ext
+[4.771s] Creating /home/pi/ros2_ws/install/kinect_integration/lib/python3.10/site-packages/kinect-integration.egg-link (link to .)
+[4.775s] Installing kinect_yolo_node script to /home/pi/ros2_ws/install/kinect_integration/lib/kinect_integration
+[4.776s] 
+[4.777s] Installed /home/pi/ros2_ws/build/kinect_integration
+[4.777s] running symlink_data
+[4.908s] Invoked command in '/home/pi/ros2_ws/build/kinect_integration' returned '0': PYTHONPATH=/home/pi/ros2_ws/build/kinect_integration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/ros2_ws/install/kinect_integration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/ros2_ws/build/kinect_integration/build --no-deps symlink_data

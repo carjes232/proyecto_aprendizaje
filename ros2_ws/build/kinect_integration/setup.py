@@ -1,0 +1,1 @@
+/home/pi/proyecto_aprendizaje/ros2_ws/src/kinect_integration/setup.py
